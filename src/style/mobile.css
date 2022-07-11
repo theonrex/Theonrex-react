@@ -1,0 +1,185 @@
+@media screen and (max-width: 1000px) {
+  .mycol-45,
+.mycol-44 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .Abt {
+    margin-top: 113px;
+  }
+
+  .mygetbg {
+    margin-top: 13px;
+  }
+
+  .xabout br {
+    display: none;
+  }
+
+  .startmg {
+    margin-left: 106px;
+    margin-top: 123px;
+  }
+
+  .pcol46 {
+    width: 100%;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .people {
+    display: none;
+  }
+
+  .mycol33 {
+    float: left;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .pcol43 {
+    margin-left: 0 !important;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    margin-top: 64px;
+  }
+
+  .test-flex {
+    display: flex;
+    width: 100%;
+    margin-bottom: 18px;
+  }
+
+  .test-flex-right {
+    display: flex;
+    width: 100%;
+    margin-left: 0 !important;
+    margin-bottom: 18px;
+  }
+
+  .test-img {
+    width: 45%;
+  }
+
+  img.black {
+    margin-bottom: 42px;
+  }
+
+  .work-img img {
+    width: 100%;
+    margin-bottom: 22px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .work-col {
+    width: 100% !important;
+    margin: 22px auto;
+    background-color: white;
+    padding: 72px;
+  }
+
+  .homemg {
+    margin-top: 20px !important;
+    margin-right: 67px !important;
+    margin-left: 69px !important;
+  }
+
+  button.price-btn {
+    padding: 7px;
+    margin-top: 22px;
+  }
+
+  .work-mg {
+    margin-bottom: 64px;
+  }
+
+  .single-footer-widget .widget-title {
+    margin: 25px 0 16px 0;
+  }
+}
+@media screen and (max-width: 770px) {
+  .price-col {
+    width: 100% !important;
+    margin: 22px;
+    padding: 22px px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .xlarge {
+    font-size: 4rem;
+    line-height: 1.04;
+    color: white;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .xlarge br, .xsmall br {
+    display: none;
+  }
+
+  .homemg {
+    margin-top: 20px !important;
+    margin-right: 44px !important;
+    margin-left: 44px !important;
+  }
+
+  .containerx {
+    padding: 64px 0 64px 0;
+    background-repeat: no-repeat;
+    position: inherit;
+  }
+
+  .journeytext {
+    font-size: 4rem;
+    line-height: normal;
+  }
+
+  .smcol50 {
+    width: 100%;
+    display: block;
+    font-size: 1.5rem !important;
+  }
+
+  span.smspan {
+    height: 30px;
+    width: 30px;
+    font-size: 1.5rem;
+  }
+
+  .startmg {
+    margin-left: 56px;
+  }
+
+  h1.prohead {
+    font-size: 2rem;
+    padding-top: 403px;
+  }
+
+  .test-flex {
+    display: flex;
+    width: 100%;
+    margin-bottom: 18px;
+  }
+
+  .test-flex-right {
+    display: flex;
+    width: 100%;
+    margin-left: 0 !important;
+    margin-bottom: 18px;
+  }
+
+  .test-img {
+    width: 90%;
+  }
+
+  .price-col {
+    width: 100% !important;
+    margin: 22px auto 22px auto;
+    padding: 42px;
+  }
+}/*# sourceMappingURL=mobile.css.map */
