@@ -120,17 +120,17 @@ function Header() {
 						<Navbar.Collapse id="basic-navbar-nav">
 							<Nav className="me-auto" variant="pills" defaultActiveKey="/home">
 								{" "}
-								<Nav.Link href="/home">Home</Nav.Link>
-								<Nav.Link href="/about">About </Nav.Link>{" "}
-								<Nav.Link href="/services">Services</Nav.Link>{" "}
-								<Nav.Link href="/contact">Contact</Nav.Link>{" "}
-								<Nav.Link href="/package">package</Nav.Link>
+								<Nav.Link href="/">Home</Nav.Link>
+								<Nav.Link href="/About">About </Nav.Link>{" "}
+								<Nav.Link href="/Services">Services</Nav.Link>{" "}
+								<Nav.Link href="/Contact">Contact</Nav.Link>{" "}
+								<Nav.Link href="/Package">package</Nav.Link>
 								<Nav.Link href="/neon">Neon Package</Nav.Link>
 							</Nav>
-							<Nav.Link className="justify-content-end sign " href="/package">
+							<Nav.Link className="justify-content-end sign " href="/neon">
 								<button> Sign-Up</button>{" "}
 							</Nav.Link>
-							<Nav.Link className="justify-content-end sign " href="/package">
+							<Nav.Link className="justify-content-end sign " href="/neon">
 								<button> Log In</button>{" "}
 							</Nav.Link>
 						</Navbar.Collapse>
