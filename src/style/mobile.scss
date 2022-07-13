@@ -1,14 +1,42 @@
 // tab
 
 @media screen and (max-width: 1000px) {
+.mycol66 {
+        float: left;
+        width: 100%;
+        padding: 20px;
+    }
+        .justify-content-end {
+            display: block;
+            padding-top: 12px;
+            justify-content:flex-end !important;
+            padding-left: 19px !important;
+        }
 
+                .sign button {
+                    background: #8f1759;
+                    color: white;
+                    font-weight: 600;
+                    width: 92px;
+                    height: 33px;
+                    margin-left: 0;
+                    border-radius: 2px;
+                    border: none;
+                }
+  .journeytext  {
+      text-align: center !important;
+  }
+                .journeytext br {
+                    display: none;
+                }
     .mycol-45,
     .mycol-44 {
         width: 100%;
         text-align: center;
     }
-        .Abt {
+        header.Abt {
             margin-top: 113px;
+            text-align: left;
         }
         .mygetbg{
                         margin-top: 13px;
@@ -104,6 +132,42 @@ button.price-btn {
             padding: 22px px;
         }
 }
+
+
+//About
+
+@media screen and (max-width: 1000px) {
+.col-50 {
+        width: 100% !important;
+        float: left;
+    }
+        .Our-text {
+           width: 80%;
+        }
+                .team-img {
+                   width: 100%;
+                }
+
+                //package
+                                .package-col .package-mini {
+                                    float: left !important;
+                                    width: 75% !important;
+                                    margin: 7px !important;
+                                    padding: 2px;
+                                    border: 1px solid rgba(0, 0, 0, 0.126);
+                                }
+                                .grid-hide{
+                                    // display: none;
+                                }
+                                .grid-package{
+                                    width: 100%;
+                                }
+}
+
+#counter-box p{
+    color: white;
+}
+
 // tab
 
 

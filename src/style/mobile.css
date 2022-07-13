@@ -1,27 +1,50 @@
 @media screen and (max-width: 1000px) {
+  .mycol66 {
+    float: left;
+    width: 100%;
+    padding: 20px;
+  }
+  .justify-content-end {
+    display: block;
+    padding-top: 12px;
+    justify-content: flex-end !important;
+    padding-left: 19px !important;
+  }
+  .sign button {
+    background: #8f1759;
+    color: white;
+    font-weight: 600;
+    width: 92px;
+    height: 33px;
+    margin-left: 0;
+    border-radius: 2px;
+    border: none;
+  }
+  .journeytext {
+    text-align: center !important;
+  }
+  .journeytext br {
+    display: none;
+  }
   .mycol-45,
 .mycol-44 {
     width: 100%;
     text-align: center;
   }
-
-  .Abt {
+  header.Abt {
     margin-top: 113px;
+    text-align: left;
   }
-
   .mygetbg {
     margin-top: 13px;
   }
-
   .xabout br {
     display: none;
   }
-
   .startmg {
     margin-left: 106px;
     margin-top: 123px;
   }
-
   .pcol46 {
     width: 100%;
     text-align: center;
@@ -29,17 +52,14 @@
     text-align: center;
     margin-left: 0;
   }
-
   .people {
     display: none;
   }
-
   .mycol33 {
     float: left;
     width: 100%;
     padding: 20px;
   }
-
   .pcol43 {
     margin-left: 0 !important;
     float: left;
@@ -48,28 +68,23 @@
     padding: 5px;
     margin-top: 64px;
   }
-
   .test-flex {
     display: flex;
     width: 100%;
     margin-bottom: 18px;
   }
-
   .test-flex-right {
     display: flex;
     width: 100%;
     margin-left: 0 !important;
     margin-bottom: 18px;
   }
-
   .test-img {
     width: 45%;
   }
-
   img.black {
     margin-bottom: 42px;
   }
-
   .work-img img {
     width: 100%;
     margin-bottom: 22px;
@@ -82,22 +97,18 @@
     background-color: white;
     padding: 72px;
   }
-
   .homemg {
     margin-top: 20px !important;
     margin-right: 67px !important;
     margin-left: 69px !important;
   }
-
   button.price-btn {
     padding: 7px;
     margin-top: 22px;
   }
-
   .work-mg {
     margin-bottom: 64px;
   }
-
   .single-footer-widget .widget-title {
     margin: 25px 0 16px 0;
   }
@@ -109,6 +120,32 @@
     padding: 22px px;
   }
 }
+@media screen and (max-width: 1000px) {
+  .col-50 {
+    width: 100% !important;
+    float: left;
+  }
+  .Our-text {
+    width: 80%;
+  }
+  .team-img {
+    width: 100%;
+  }
+  .package-col .package-mini {
+    float: left !important;
+    width: 75% !important;
+    margin: 7px !important;
+    padding: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.126);
+  }
+  .grid-package {
+    width: 100%;
+  }
+}
+#counter-box p {
+  color: white;
+}
+
 @media screen and (max-width: 600px) {
   .xlarge {
     font-size: 4rem;
@@ -117,66 +154,54 @@
     font-weight: 600;
     font-family: "Roboto", sans-serif;
   }
-
   .xlarge br, .xsmall br {
     display: none;
   }
-
   .homemg {
     margin-top: 20px !important;
     margin-right: 44px !important;
     margin-left: 44px !important;
   }
-
   .containerx {
     padding: 64px 0 64px 0;
     background-repeat: no-repeat;
     position: inherit;
   }
-
   .journeytext {
     font-size: 4rem;
     line-height: normal;
   }
-
   .smcol50 {
     width: 100%;
     display: block;
     font-size: 1.5rem !important;
   }
-
   span.smspan {
     height: 30px;
     width: 30px;
     font-size: 1.5rem;
   }
-
   .startmg {
     margin-left: 56px;
   }
-
   h1.prohead {
     font-size: 2rem;
     padding-top: 403px;
   }
-
   .test-flex {
     display: flex;
     width: 100%;
     margin-bottom: 18px;
   }
-
   .test-flex-right {
     display: flex;
     width: 100%;
     margin-left: 0 !important;
     margin-bottom: 18px;
   }
-
   .test-img {
     width: 90%;
   }
-
   .price-col {
     width: 100% !important;
     margin: 22px auto 22px auto;

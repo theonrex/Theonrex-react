@@ -7,8 +7,8 @@ function price() {
 			<div className=" container ">
 				<p className="priceP">Choose a Plan</p>
 				<h1 className="price-H1"> Pricing Plan</h1>
-				<div className="rowx homemg">
-					<div className="price-col">
+				<div className="rowx homemg ">
+					<div className="price-col price-hover">
 						<h2>Intro</h2>
 						<h1>$120 </h1>
 						<p>for most business that want to optimize web solutions</p>
@@ -46,10 +46,11 @@ function price() {
 							<i className="bi bi-check-circle-fill"></i>
 							Product Package
 						</li>
-
-						<button className="price-btn"> Choose Plan</button>
+						<div className="price-btn">
+							<button className="price-btn"> Choose Plan</button>
+						</div>
 					</div>
-					<div className="price-col">
+					<div className="price-col price-hover">
 						<h2>Intro</h2>
 						<h1>$120 </h1>
 						<p>for most business that want to optimize web solutions</p>
@@ -90,7 +91,7 @@ function price() {
 
 						<button className="price-btn"> Choose Plan</button>
 					</div>{" "}
-					<div className="price-col">
+					<div className="price-col price-hover">
 						<h2>Intro</h2>
 						<h1>$120 </h1>
 						<p>for most business that want to optimize web solutions</p>
@@ -131,7 +132,7 @@ function price() {
 
 						<button className="price-btn"> Choose Plan</button>
 					</div>{" "}
-					<div className="price-col">
+					<div className="price-col price-hover">
 						<h2>Intro</h2>
 						<h1>$120 </h1>
 						<p>for most business that want to optimize web solutions</p>
@@ -170,7 +171,7 @@ function price() {
 							Product Package
 						</li>
 
-						<button className="price-btn"> Choose Plan</button>
+						<button className="price-btn hov"> Choose Plan</button>
 					</div>{" "}
 				</div>
 			</div>

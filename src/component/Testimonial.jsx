@@ -1,30 +1,31 @@
 import React from "react";
 import "../style/style.css";
-import client from '../images/Olawande.jpg'
+import emmmanuel from '../images/emmyzay.png';
+import sola from '../images/sola.png'
+
 
 function Testimonial () {
     return (
 			<div className="text-bg">
 				<div className="container">
 					<div className="Testimonial container">
-						<header className="test-text"> Testimonials</header>
-						<h2> What Clients Say</h2>
+						<h2> Clients Reviews</h2>
 					</div>
 					<div className="test-flex ">
 						<div className="test-img">
-							<img src={client} alt="client" className="client" />
+							<img src={emmmanuel} alt="client" className="client" />
 						</div>{" "}
 						<div className="section-text">
-							<h3>
-								{" "}
-								Olawande Rex <span> Web Development</span>
-							</h3>
+							<h3> AJAYI EMMANUEL</h3>
+							<h4>
+								MD 
+								<span> EMMYZAY FURNITURE</span>
+							</h4>
 							<p>
 								{" "}
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
-								quidem. Quae ullam obcaecati corrupti temporibus at culpa
-								perferendis sapiente consequuntur repudiandae neque! Id quod ut
-								minus, minima molestias explicabo nobis.
+								It has been awesome working with Theonrex, I've got the best design
+								so far that a lot of people complement, thank you very
+								much for a job well done, we'll do so much more together.
 							</p>
 							<p>
 								{" "}
@@ -36,16 +37,17 @@ function Testimonial () {
 									<i className="bi bi-star-fill"></i>
 									<i className="bi bi-star-fill"></i>
 								</span>{" "}
-								five star{" "}
+								
 							</p>
 						</div>
 					</div>
 					<div className="test-flex-right ">
-						<div className="section-text-right">
-							<h3>
-								{" "}
-								Olawande Rex <span> Web Development</span>
-							</h3>
+						<div className="section-text right">
+							<h3> SOLA BAMIDELE </h3>
+							<h4>
+								MD
+								<span> LORD'S MINE PUBLISHERS</span>
+							</h4>
 							<p>
 								{" "}
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
@@ -63,14 +65,13 @@ function Testimonial () {
 									<i className="bi bi-star-fill"></i>
 									<i className="bi bi-star-fill"></i>
 								</span>{" "}
-								five star{" "}
+								
 							</p>
 						</div>
 						<div className="test-img">
-							<img src={client} alt="client" className="client" />
+							<img src={sola} alt="client" className="client" />
 						</div>{" "}
 					</div>
-					<button className="test-btn"> See More</button>
 				</div>
 			</div>
 		);

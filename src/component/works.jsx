@@ -8,8 +8,8 @@ function works() {
 			<div className=" container">
 				<div className=" container ">
 					<h1 className="work-H1">Our Projects</h1>
-					<div className="rowx homemg">
-						<div className="work-col">
+					<div className="rowx homemg container" id="works">
+						<div className="work-col right-works">
 							<div className="work-img">
 								<img src={graphics} alt="" />
 							</div>
@@ -37,7 +37,7 @@ function works() {
 							<button className="work-btn-view"> View</button>
 							<button className="work-btn-source"> Git</button>
 						</div>
-						<div className="work-col work-mg">
+						<div className="work-col work-mg left-works">
 							<div className="work-img">
 								<img src={graphics} alt="" />
 							</div>

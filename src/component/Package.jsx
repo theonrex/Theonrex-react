@@ -20,7 +20,7 @@ function About() {
 			</div>
 			<div className="container">
 				<div className="grid-container">
-					<div className="grid-item">
+					<div className="grid-item grid-hide">
 						<div>
 							<div
 								className="accordion accordion-flush"
@@ -104,7 +104,7 @@ function About() {
 							</div>
 						</div>
 					</div>
-					<div className="grid-item">
+					<div className="grid-item grid-package">
 						{" "}
 						<div className="carousel-inner myCarousel">
 							<div className="carousel-item active">

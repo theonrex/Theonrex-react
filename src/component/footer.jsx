@@ -14,7 +14,7 @@ function footer() {
 					</div>
 				</div>
 			</div>
-			
+
 			<div className="footer-bg ">
 				<footer className="footer_area section_padding_130_0">
 					<div className="container">
@@ -22,9 +22,8 @@ function footer() {
 							<div className="col-12 col-sm-6 col-lg-4">
 								<div className="single-footer-widget section_padding_0_130">
 									<div className="footer-logo mb-3"></div>
-									<p>
-										Appland is completely creative, lightweight, clean app
-										landing page.
+									<p className="mb-3-p">
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit laborum quis labore cumque ex ullam vel, enim minima optio sequi quod sed dolorum impedit ab neque corporis, nemo accusantium magnam.
 									</p>
 
 									<div className="footer_social_area">
@@ -42,18 +41,18 @@ function footer() {
 											data-toggle="tooltip"
 											data-placement="top"
 											title=""
-											data-original-title="Pinterest"
+											data-original-title="Github"
 										>
-											<i className="fa fa-pinterest"></i>
+											<i className="fa fa-github"></i>
 										</a>
 										<a
 											href="#/"
 											data-toggle="tooltip"
 											data-placement="top"
 											title=""
-											data-original-title="Skype"
+											data-original-title="dribbble"
 										>
-											<i className="fa fa-skype"></i>
+											<i className="fa fa-dribbble"></i>
 										</a>
 										<a
 											href="#/"

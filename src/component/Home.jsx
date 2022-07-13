@@ -59,34 +59,34 @@ function Home() {
 									{" "}
 									<span className="smspan">1</span>
 									<h2>
-										Website Design
-										<br /> website Design
+										Fast and Reliable
+										<br /> Service
 									</h2>
 								</div>
 								<div className="smcol50">
 									{" "}
 									<span className="smspan">2</span>{" "}
 									<h2>
-										Ui/Ux Design
-										<br /> website Design
+										Top Notch
+										<br /> Design
 									</h2>
 								</div>
 							</div>
 							<div className="mycol-44  smcol ">
 								<div className="smcol50">
 									{" "}
-									<span className="smspan">1</span>
+									<span className="smspan">3</span>
 									<h2>
-										Website Design
-										<br /> website Design
+										Excelent Customer
+										<br /> Service
 									</h2>
 								</div>
 								<div className="smcol50">
 									{" "}
-									<span className="smspan">2</span>{" "}
+									<span className="smspan">4</span>{" "}
 									<h2>
-										Ui/Ux Design
-										<br /> website Design
+										Customer Friendly
+										<br /> Price
 									</h2>
 								</div>
 							</div>
@@ -104,7 +104,7 @@ function Home() {
 									<img src={people} alt="" className="people" />
 								</div>
 								<div>
-									<div className="mycol33">
+									<div className="mycol33 small-px">
 										{" "}
 										<h3>Lorem ipsum dolor sitl? rex fedsx</h3>
 										<p>Are you intrested in our services & products? </p>
@@ -117,7 +117,7 @@ function Home() {
 							<div className="pcol43">
 								<header className="">2+ Years Exprience</header>
 								<h2 className="journeytext">
-									Get Started <br /> With Us!
+									Get Started  With Us!
 								</h2>
 								<p className="xabout">
 									We provide digital solution for businees and make our <br />{" "}
@@ -141,7 +141,7 @@ function Home() {
 				<div className="container ">
 					<h1 className="prohead">
 						{" "}
-						<span> Find a Product</span> <br /> Featured Products & Services
+						<span> </span> Featured Products & Services
 					</h1>
 
 					<div className="rowx container ">
@@ -165,11 +165,6 @@ function Home() {
 									{" "}
 									<img src={ux} alt="ui/ux" className="imgproducts" /> Ui/Ux
 								</li>
-								<li>
-									{" "}
-									<img src={Publish} alt="book" className="imgproducts" /> Book
-									Publishing
-								</li>
 							</div>
 						</div>
 						<div className="productcolrr proli">
@@ -179,8 +174,8 @@ function Home() {
 							</li>
 							<li>
 								{" "}
-								<img src={Publish} alt="book" className="imgproducts" /> Book
-								Publishing
+								<img src={stat} alt="branding" className="imgproducts" />{" "}
+								Branding
 							</li>
 						</div>
 					</div>
@@ -193,12 +188,12 @@ function Home() {
 			</div>
 			{/* products */}
 			{/* Testimonial */}
-			<Testimonial/>
+			<Testimonial />
 			{/* Testimonial */}
 			{/* // price */}
-			<Price/>
-		{/* works */}
-		<Works/>
+			<Price />
+			{/* works */}
+			<Works />
 		</div>
 	);
 }

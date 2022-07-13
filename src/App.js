@@ -10,6 +10,7 @@ import Footer from './component/footer';
 import Services from './component/Services';
 import Package from './component/Package';
 import Contact from './component/Contact';
+// import Quote from './component/Quote';
 
 function App() {
    
@@ -25,6 +26,8 @@ function App() {
         <Route exact path='/services' element={<Services/>} />
         <Route exact path='/package' element={<Package/>} />
         <Route exact path='/contact' element={<Contact/>} />
+                {/* <Route exact path='/Quote' element={<Quote/>} /> */}
+
 
 
 
