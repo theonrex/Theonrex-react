@@ -5,7 +5,7 @@ import coder from "../images/coder.jpg";
 import black from "../images/black.jpg"
 import ux from "../images/ux.png"
 import graphics from "../images/graphic-designer.png";
-import Publish from "../images/light-bulb.png";
+// import Publish from "../images/light-bulb.png";
 import stat from "../images/stationery.png";
 import webdev from "../images/web-development.png";
 import Theoncarousel from "../component/Carousel";
@@ -115,10 +115,7 @@ function Home() {
 								</div>
 							</div>
 							<div className="pcol43">
-								<header className="">2+ Years Exprience</header>
-								<h2 className="journeytext">
-									Get Started  With Us!
-								</h2>
+								<h2 className="journeytext">Get Started With Us!</h2>
 								<p className="xabout">
 									We provide digital solution for businees and make our <br />{" "}
 									products / services easily assessable. We are a center that
@@ -145,7 +142,7 @@ function Home() {
 					</h1>
 
 					<div className="rowx container ">
-						<div className="productcol proli">
+						{/* <div className="productcol proli">
 							<li>
 								<img src={graphics} alt="graphics" className="imgproducts" />{" "}
 								Graphics Design
@@ -155,19 +152,19 @@ function Home() {
 								<img src={webdev} alt="webdev" className="imgproducts" /> Web
 								Design
 							</li>
-							<li>
+							<li className="li-hide">
 								{" "}
 								<img src={stat} alt="branding" className="imgproducts" />{" "}
 								Branding
 							</li>
 							<div className="productcolr proli">
-								<li className="">
+								<li className="li-hide">
 									{" "}
 									<img src={ux} alt="ui/ux" className="imgproducts" /> Ui/Ux
 								</li>
 							</div>
-						</div>
-						<div className="productcolrr proli">
+						</div> */}
+						{/* <div className="productcolrr proli">
 							<li className="">
 								{" "}
 								<img src={ux} alt="ui/ux" className="imgproducts" /> Ui/Ux
@@ -177,7 +174,7 @@ function Home() {
 								<img src={stat} alt="branding" className="imgproducts" />{" "}
 								Branding
 							</li>
-						</div>
+						</div> */}
 					</div>
 
 					<div>

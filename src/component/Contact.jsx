@@ -36,7 +36,7 @@ function Contact() {
 					<Slider {...settings}>
 						<div className="my-form">
 							<form onSubmit={handleSubmit(onSubmit)}>
-								<label>First Name</label>
+							
 
 								<input
 									{...register("name", {

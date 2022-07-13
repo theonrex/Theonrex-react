@@ -6,7 +6,7 @@ function footer() {
 		<div className="reach">
 			<div>
 				<div className="rowx reach-bg container">
-					<div className="mycol-45 ">
+					<div className="mycol-45 reach-mg">
 						<h2>Want to reach us?</h2>
 					</div>
 					<div className="mycol-45 button-mg ">

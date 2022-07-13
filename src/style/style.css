@@ -35,6 +35,12 @@ Nav {
   color: #8f1759 !important;
 }
 
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: none !important;
+}
+
 .sign {
   color: white !important;
 }
@@ -606,7 +612,6 @@ i .bi-star {
 }
 
 .work-div {
-  padding-top: 35px;
   padding-bottom: 62px;
 }
 
@@ -661,6 +666,7 @@ button.test-btn {
   background-color: white;
   padding: 22px;
   border-radius: 8px;
+  box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.1);
 }
 
 button .price-hover {
@@ -718,13 +724,6 @@ button.price-btn {
   margin-right: 12px;
 }
 
-@media screen and (max-width: 1000px) {
-  .price-col {
-    width: 40% !important;
-    margin: 22px;
-    padding: 22px;
-  }
-}
 .work-bg {
   background-color: #8f1759;
 }
@@ -793,13 +792,11 @@ footer {
   text-align: left;
 }
 
-.mb-3-p {
-  color: white !important;
-}
-
-.button-mg {
-  justify-content: center;
-  float: inline-end !important;
+.reach-mg {
+  width: 60%;
+  font-size: 25px;
+  margin: 0;
+  padding: 12px 0 12px 0;
 }
 
 .mycol-45 button {
@@ -808,10 +805,24 @@ footer {
   color: #ffffff;
   font-size: 18px;
   justify-content: center;
-  margin: 22px 0px 22px 75%;
+  margin: auto 8em;
   border-radius: 8px;
   padding: 12px;
   background-color: #c51475 !important;
+}
+
+.button-mg {
+  width: 40%;
+  margin: 0;
+}
+
+.mb-3-p {
+  color: white !important;
+}
+
+.button-mg {
+  justify-content: center;
+  float: inline-end !important;
 }
 
 .footer-btn {
@@ -978,13 +989,15 @@ ul {
 .col30-mg {
   margin-top: 32px;
   margin-bottom: 53px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Our-text {
   border-radius: 4px;
   border-color: rgba(0, 0, 0, 0.1529411765) !important;
   border: 1px solid;
-  margin: 8px;
+  margin: 12px auto 12px auto;
 }
 
 .Our-text:hover {
@@ -1066,10 +1079,6 @@ ul {
   border-radius: 5px;
 }
 
-.team-img {
-  margin-left: 33px;
-}
-
 .team-bg {
   background-color: #8f1759 !important;
 }
@@ -1131,6 +1140,10 @@ p i.bi {
 .counter {
   font-size: 2.5rem;
   color: rgb(255, 255, 255);
+}
+
+.services-mg {
+  margin-top: 22px;
 }
 
 .grid-container {
@@ -1272,6 +1285,7 @@ button.package-btn {
   width: 100% !important;
   height: 10%;
   margin-left: auto;
+  margin-right: auto;
   margin-top: 33px;
   top: 0;
   right: 0;
@@ -1285,7 +1299,7 @@ button.package-btn {
   top: 0;
   left: 0;
   width: 20px;
-  height: 20px;
+  height: 0px !important;
   content: "•";
   text-align: center;
   opacity: 0.25;
@@ -1300,8 +1314,8 @@ button.package-btn {
 .slick-dots li {
   position: relative;
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: auto;
+  height: 0px !important;
   margin: 0 25px;
   padding: 0;
   cursor: pointer;
@@ -1312,7 +1326,7 @@ button.package-btn {
   line-height: 0;
   display: inline-block !important;
   width: 90px !important;
-  height: 20px;
+  height: 0px;
   padding: 5px;
   cursor: pointer;
   color: transparent;
@@ -1328,7 +1342,7 @@ button.package-btn {
   line-height: 0;
   display: inline-block !important;
   width: 130px !important;
-  height: 20px;
+  height: 0px;
   padding: 5px;
   cursor: pointer;
   color: transparent;

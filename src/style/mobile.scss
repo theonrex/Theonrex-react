@@ -1,10 +1,51 @@
 // tab
 
+//navbar
+@media screen and (min-width: 992px) {
+    .mobile-nav{
+display: none;
+    }
+}
+@media screen and (max-width: 991px) {
+    .desktop, .grid-hide {
+        display: none;
+    }
+        .grid-container {
+            display: grid;
+            column-gap: 30px;
+            grid-template-columns: 0% 100%;
+            padding: 10px;
+        }
+}
+
+@media screen and (max-width: 770px) {
+    .xlarge {
+        font-size: 50px !important;
+        line-height: 1.04;
+        color: white;
+        font-weight: 600;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .xsmall {
+        color: white;
+        font-size: 16px;
+    }
+        #works {
+            padding: 0px;
+        }
+
+}
+
+
+
+
 @media screen and (max-width: 1000px) {
 .mycol66 {
         float: left;
         width: 100%;
         padding: 20px;
+        text-align: center;
     }
         .justify-content-end {
             display: block;
@@ -17,8 +58,8 @@
                     background: #8f1759;
                     color: white;
                     font-weight: 600;
-                    width: 92px;
-                    height: 33px;
+    width: 100% !important;
+                        height: 33px;
                     margin-left: 0;
                     border-radius: 2px;
                     border: none;
@@ -36,7 +77,12 @@
     }
         header.Abt {
             margin-top: 113px;
-            text-align: left;
+            font-size: 19px !important;
+            font-weight: 600;
+        }
+
+        .small-px h3, .small-px p{
+            font-size: 20px;
         }
         .mygetbg{
                         margin-top: 13px;
@@ -44,12 +90,23 @@
     .xabout br{
             display: none;
         }
+p{
+    font-size: 20px;
+}
+
+
+
+
 //skills
                 .startmg {
                     margin-left: 106px;
                     margin-top: 123px;
                 }
-
+.smcol .smcol50 h2 {
+    margin: 10px 0px 10px 0px;
+    font-size: 1.3rem;
+   text-align: left;
+}
     .pcol46 {
       width: 100%;
       text-align: center;
@@ -103,12 +160,11 @@
         width: 100% !important;
         margin:22px auto;
         background-color: white;
-        padding: 72px;
+        padding: 52px;
     }
 .homemg {
     margin-top: 20px !important;
-    margin-right: 67px !important;
-        margin-left: 69px !important;
+  
 }
 button.price-btn {
    
@@ -117,7 +173,7 @@ button.price-btn {
     
 }
 .work-mg{
-    margin-bottom: 64px;
+    margin-bottom: 44px;
 }
 .single-footer-widget .widget-title {
     margin: 25px 0 16px 0;
@@ -131,6 +187,8 @@ button.price-btn {
             margin: 22px;
             padding: 22px px;
         }
+
+
 }
 
 
@@ -142,11 +200,16 @@ button.price-btn {
         float: left;
     }
         .Our-text {
-           width: 80%;
+           width: 100%;
         }
+                .col30-mg {
+                            width: 80%;
+                }
                 .team-img {
                    width: 100%;
                 }
+                              
+                
 
                 //package
                                 .package-col .package-mini {
@@ -162,10 +225,74 @@ button.price-btn {
                                 .grid-package{
                                     width: 100%;
                                 }
+                                                                 .xsmall br,
+                                                                 .li-hide {
+                                                                     display: none !important;
+          
+                                                                    }
+
+   .mycol-45 {
+       width: 100% !important;
+       border: none;
+       text-align: center;
+       color: #ffffff;
+       font-size: 18px;
+       justify-content: center;
+
+   }
+
+   .reach-mg h2 {
+       text-align: center;
+       color: #8f1759;
+   }
+
+        .mycol-45 button {
+            border: none;
+            text-align: center;
+            color: #ffffff;
+            font-size: 18px;
+            justify-content: center;
+            margin: 12px auto 22px auto;
+            border-radius: 8px;
+            padding: 12px;
+            background-color: #c51475 !important;
+        }
 }
 
 #counter-box p{
     color: white;
+}
+
+
+
+//price
+@media screen and (max-width: 1000px) {
+
+
+    .price-col {
+        width: 100% !important;
+        margin: 22px;
+        padding: 22px;
+    }
+//carousel
+
+  #counter-box {
+      width: 20%;
+      margin: 15px 10px 15px 5px;
+      float: left;
+      text-align: center;
+      color: #ffffff;
+      font-size: 1rem;
+  }
+
+  .counter {
+      font-size: 1.5rem;
+      color: rgb(255, 255, 255);
+  }
+  #counter-box p {
+      color: white;
+            font-size: 1rem;
+  }
 }
 
 // tab
@@ -180,14 +307,18 @@ button.price-btn {
         font-weight: 600;
         font-family: "Roboto", sans-serif;
     }
-        .xlarge br, .xsmall br {
-            display: none;
+         .xsmall br, .li-hide {
+            display: none !important;
          }
                  .homemg {
                      margin-top: 20px !important;
-                     margin-right: 44px !important;
-                     margin-left: 44px !important;
+                  
                  }
+                                 .smcol .smcol50 h2 {
+                                     margin: 10px 0px 10px 0px;
+                                     font-size: 1.3rem;
+                                     text-align: center;
+                                 }
  .containerx {
      padding: 64px 0 64px 0;
      background-repeat: no-repeat;
@@ -238,3 +369,98 @@ button.price-btn {
 }
 
 //mobile min2.5
+
+@media screen and (max-width: 400px) {
+    .xlarge {
+        font-size: 35px !important;
+        line-height: 1.04;
+        color: white;
+        font-weight: 600;
+        font-family: "Roboto", sans-serif;
+    }
+        .xsmall {
+            color: white;
+            font-size: 13px;
+        }
+
+    .xsmall br,
+    .li-hide {
+        display: none !important;
+    }
+
+    .homemg {
+        margin-top: 20px !important;
+
+    }
+        button.started, button.learn {
+            font-weight: 500;
+            width: 100%;
+            display: block;
+          
+            border: none;
+            margin: 20px 0 10px 0;
+        }
+                .smcol .smcol50 h2 {
+                    margin: 10px 0px 10px 0px;
+                    font-size: 14.5px;
+                    text-align: center;
+                }
+                                span.smspan {
+                                
+                                  
+                                    font-size: 16px;
+                                }
+  .startmg {
+margin-left: 47px;
+margin-top: 53px !important;
+}
+
+        .pcol43 .journeytext {
+            font-size: 34px;
+            line-height: normal;
+        }
+
+        .xabout{
+            font-size: 14px;
+        }
+
+                button.myapp {
+                    margin-bottom: 42px;
+                    padding: 11px 22px;
+                    font-size: 12px;
+                }
+                                h1.prohead {
+                                    font-size: 20px;
+                                    padding-top: 403px;
+                                }
+  .sidetext p {
+      background-color: #c51475;
+      text-align: left;
+      color: white;
+      font-size: 7px;
+  }
+  .sideclick {
+   
+      font-size: 10px;
+  
+  }
+  .sliderCol .sidecolmini {
+      width: 100% !important;
+      text-align: center;
+      padding: 10px;
+  }
+  .section-text p {
+      font-weight: 900;
+      color: black;
+      font-size: 16px;
+  }
+ #counter-box {
+     width: 50%;
+     margin: 15px auto;
+     float: left;
+     text-align: center;
+     color: #ffffff;
+     font-size: 1rem;
+ }
+
+}

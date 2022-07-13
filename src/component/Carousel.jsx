@@ -1,6 +1,8 @@
 import React from "react";
 import "../style/style.css";
 import black from "../images/black.jpg";
+import "../style/mobile.css";
+
 
 
 function Theoncarousel() {
@@ -39,7 +41,7 @@ function Theoncarousel() {
 
 									<div className="sidetext">
 										<header>
-											Graphics sharon <span> . .img</span>
+											Graphics  <span> . .img</span>
 										</header>
 										<p>
 											{" "}

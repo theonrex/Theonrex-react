@@ -122,7 +122,7 @@ function About(){
 						</div>
 					</div>
 					<div className="counter-bg">
-						<div id="counter-section-container">
+						<div id="counter-section-container" className="container">
 							<div id="counter-box-container">
 								<div id="counter-box">
 									<span className="counter" data-number="150000"></span>
